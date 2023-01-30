@@ -1,3 +1,14 @@
+/*
+ * usage: showip hostname
+ *
+ * $ showip google.com
+ * IP Addresses for: google.com
+ * --> [IPv4] 172.217.18.110
+ *
+ * $ showip 2607:f8b0:4005:802::1007
+ * IP Addresses for: 2607:f8b0:4005:802::1007
+ * --> [IPv6] 2607:f8b0:4005:802::1007
+ */
 #include <arpa/inet.h>
 #include <iostream>
 #include <netdb.h>
